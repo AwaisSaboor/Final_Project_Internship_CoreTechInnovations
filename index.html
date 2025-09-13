@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-------------------------------------- bootstrap  -------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+  <!-- navbar start here  -->
+  <div class="container-fluid navbar-section1" style="height: auto; " >
+
+
+    <nav id="navbar" class="navbar navbar-expand-lg ">
+
+
+
+      <div class="container-fluid ">
+
+        <ul class="navbar-nav ms-auto navbar" id=events>
+
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#" style="font-weight: bold;">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 hire-hover" href="http://127.0.0.1:5500/hire.html"
+              style="font-weight: bold;">HIRE</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link mx-2" href="contact.html" style="font-weight: bold;">CONTACT</a>
+          </li>
+
+        </ul>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class=" list collapse navbar-collapse" id="navbarNav">
+
+          <h1 class="navbar-nav  col-5 logo-name reveal"><a href="">DOCKYARD SOCIALS</a></h1>
+
+
+
+          <div class="d-flex align-items-center ms-3">
+            <a href="ticket.html" class="reveal btn  me-2"
+              style="font-weight: bold;">TICKETS</a>
+            <a href="gift.html" class="reveal gift-vouch text-decoration-none me-2" style="font-weight: bold;">GIFT
+              VOUCHERS</a>
+            <a href="cart.html" class="reveal chart" style=" font-weight: bold;">CART (0)</a>
+          </div>
+        </div>
+      </div>
+
+    </nav>
+
+
+
+    <!-- navbar end here  -->
+
+
+
+
+
+
+    <!-- section 1 start here  -->
+
+    <div class="container-fluid ">
+
+      <div class="row">
+
+        <div class="slow good-food col-12 text-center text-uppercase">
+          <p>Good Food</p>
+        </div>
+        <div class="slow  great-people col-12 text-center text-uppercase">
+          <p>Great People.</p>
+        </div>
+
+        <div class="slow the-west pt-5 ms-auto col-12 offset-1 text-uppercase text-center">
+          <p>The west end food spot you never knew you needed in your life Open every weekend</p>
+        </div>
+
+        <div class="slow col-12 text-center pb-5" > <a href="ticket.html"><button id="book-now"
+          style=  " font-weight: bold; border: 1px solid #fedf4b; border-radius: 30px;" class="btn">BOOK
+          NOW</button></a>
+          </div>
+
+<!-- cookie wala section  ------------------------------------------------------------------------------------>
+
+<!-- ==== ===================================================================================================-->
+
+
+        <div onclick="openModel()" class="col-12 cookie-img"><img style="background-color: #fedf4b; border-radius: 50%;"
+            src="images/cookie.webp" class="img-fluid" alt=""></div>
+
+      </div>
+
+
+      <dialog id="myModel">
+        <div class="container-fluid" style="background-color: black;">
+          <div class="row">
+            <div class="col-12 pt-3 ">
+              <p style="color: white; font-family:'Tusker Grotesk' ; font-size: 1.6rem;">Privacy Preference Center</p>
+            </div>
+
+            <div onclick="closeModel()" class="col-12">
+
+              <p class="" id="icons"><i class="bi bi-x-circle"></i></p>
+            </div>
+
+
+
+            <div class="col-12">
+              <p style="color: white; font-weight: bold; font-size: 0.7rem;">When you visit websites, they
+                may store or retrieve data in your browser. This storage is often necessary for the basic functionality
+                of the website. The storage may be used for marketing, analytics, and personalization of the site, such
+                as storing your preferences. Privacy is important to us, so you have the option of disabling certain
+                types of storage that may not be necessary for the basic functioning of the website. Blocking categories
+                may impact your experience on the website</p>
+            </div>
+
+            <div class="col-12">
+
+              <button class="btn"
+                style="font-weight: bold; font-size: 0.4; color: #fedf4b; border: 2px solid #fedf4b; border-radius: 20px;">Reject
+                all
+                cookies</button>
+              <button class="btn"
+                style="background-color: #fedf4b; color: black; font-weight: bold; border-radius: 20px;">Allow all
+                cookies</button>
+
+            </div>
+
+
+
+            <div class="col-12">
+              <p style="color: white; font-size: 2rem; font-family: 'Tusker Grotesk';">Manage Consent Preferences by
+                Category</p>
+            </div>
+
+
+
+            <div class="col-12 d-flex">
+              <p style="color: #fedf4b; font-weight: bold;">Essential</p>
+              <p style="padding-left: 250px; font-weight: bold; color: white;">Always Active</p>
+            </div>
+
+
+            <div class="col-12">
+
+              <p style="color: white; font-weight: bold; font-size: 0.8rem;">These items are required to enable basic
+                website functionality.</p>
+
+            </div>
+
+
+
+            <div class="col-12 d-flex">
+              <p style="color: #fedf4b; font-weight: bold;">Marketing</p>
+              <p style="padding-left: 250px;">
+              <div class="toggle-switch" onclick="toggleSwitch(this)"></div>
+              </p>
+            </div>
+
+
+
+            <div class="col-12">
+              <p style="font-weight: bold; font-size: 0.8rem; color: white;">These items are used to deliver advertising
+                that is more relevant to you and your interests. They may
+                also be used to limit the number of times you see an advertisement and measure the effectiveness of
+                advertising campaigns. Advertising networks usually place them with the website operator’s permission.
+              </p>
+            </div>
+
+
+
+
+            <div class="col-12 d-flex">
+              <p style="color: #fedf4b; font-weight: bold;">Personalization</p>
+              <p style="padding-left: 210px;">
+              <div class="toggle-switch" onclick="toggleSwitch(this)"></div>
+              </p>
+            </div>
+
+
+            <div class="col-12">
+              <p style="font-weight: bold; font-size: 0.8rem ; color: white;">These items allow the website to remember
+                choices you make (such as your user name, language, or the
+                region you are in) and provide enhanced, more personal features. For example, a website may provide you
+                with local weather reports or traffic news by storing data about your current location.</p>
+            </div>
+
+
+
+            <div class="col-12 d-flex">
+              <p style="color: #fedf4b; font-weight: bold;">Analytics</p>
+              <p style="padding-left: 260px;">
+              <div class="toggle-switch" onclick="toggleSwitch(this)"></div>
+              </p>
+            </div>
+
+
+            <div class="col-12">
+              <p style="font-weight: bold; color: white; font-size: 0.8rem;">These items help the website operator
+                understand how its website performs, how visitors interact with
+                the site, and whether there may be technical issues. This storage type usually doesn’t collect
+                information that identifies a visitor.</p>
+            </div>
+
+            <div class="col-12 pb-3 text-end">
+              <button onclick="closeModel()" class="btn text-end"
+                style="background-color: #fedf4b; font-weight: bold; font-size: 0.8rem; color: black; border-radius: 20px;">Confirm
+                my preferences and close</button>
+            </div>
+
+          </div>
+
+        </div>
+      </dialog>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+  <!-- pop-up  -->
+
+
+
+
+
+
+  <!-- pop-up  -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- section 2 start from here -->
+
+
+  <div class="container-fluid section-2 " style="height: 700px; background-color: black; ">
+
+    <div class="row pt-5">
+
+
+      <div class="col-12 text-center text-uppercase pt-5">
+        <p style=" color:#fedf4b;" class="h5">What's it all about?</p>
+      </div>
+
+      <div style="font-size: 5.5rem;" class="col-12 h1 text-center text-uppercase">
+        <p id="dockyard">The Dockyard is a</p>
+      </div>
+
+      <div style="font-size: 5rem;" class="col-12 h1 text-uppercase text-center">
+        <p id="social-dining">Social Dining Experience.</p>
+      </div>
+
+      <div class="col-12 h1 text-uppercase text-center">
+        <p id="eat-drink">Eat, drink and have fun with</p>
+      </div>
+
+      <div class="col-12 h1 text-uppercase text-center">
+        <p id="friends">Your friends.</p>
+      </div>
+
+      <div class="col-12 pt-5 text-uppercase text-center ms-auto text-uppercase">
+        <p id="started-para">STARTED BY A GROUP OF FRIENDS WITH A VIEW TO BRINGING A WHOLE NEW DINING EXPERIENCE TO
+        </p>
+      </div>
+
+      <div class="col-12 text-uppercase text-center ms-auto text-uppercase">
+        <p id="glassgow-para">GLASGOW, THE DOCKYARD WAS BORN. WE LOVE FOOD, LOVE DRINKS AND LOVE SERVING UP GOOD
+          TIMES.
+        </p>
+      </div>
+
+
+    </div>
+
+
+
+    <!-- shavron -->
+    <div class="shapes col-12">
+
+      <!-- First Chevron -->
+
+      <div id="chevron1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522.53 381.93" height="310" width="600">
+          <title>CHEVRON SHAPE 1</title>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path style="fill: none; stroke: #fedf4b; stroke-miterlimit: 10; stroke-width: 5px;"
+                d="M522,123.71c-.06,19.21,0,236.88,0,256.09,0,.29,0,.58-.08,1.1-.86-.37-1.6-.65-2.3-1Q391.41,320,263.23,260a4.1,4.1,0,0,0-4,0Q130.89,320.1,2.49,380.1c-.68.31-1.33.67-2,1V122.17c.63-.24,1.29-.44,1.9-.73Q130.68,61.49,259,1.51a14,14,0,0,0,1.61-1h1.27a15.41,15.41,0,0,0,1.65,1Z">
+              </path>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <!-- Second Chevron -->
+      <div class="chevron2">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522.53 381.93" height="310" width="600">
+          <title>CHEVRON SHAPE 2</title>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path style="fill: none; stroke: #fedf4b; stroke-miterlimit: 10; stroke-width: 5px;"
+                d="M522,123.71c-.06,19.21,0,236.88,0,256.09,0,.29,0,.58-.08,1.1-.86-.37-1.6-.65-2.3-1Q391.41,320,263.23,260a4.1,4.1,0,0,0-4,0Q130.89,320.1,2.49,380.1c-.68.31-1.33.67-2,1V122.17c.63-.24,1.29-.44,1.9-.73Q130.68,61.49,259,1.51a14,14,0,0,0,1.61-1h1.27a15.41,15.41,0,0,0,1.65,1Z">
+              </path>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+
+
+      <!-- Third Chevron -->
+      <div class="chevron3">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 522.53 381.93" height="80">
+          <title>CHEVRON SHAPE 3</title>
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path style="fill: none; stroke: #fedf4b; stroke-miterlimit: 10; stroke-width: 5px;"
+                d="M522,123.71c-.06,19.21,0,236.88,0,256.09,0,.29,0,.58-.08,1.1-.86-.37-1.6-.65-2.3-1Q391.41,320,263.23,260a4.1,4.1,0,0,0-4,0Q130.89,320.1,2.49,380.1c-.68.31-1.33.67-2,1V122.17c.63-.24,1.29-.44,1.9-.73Q130.68,61.49,259,1.51a14,14,0,0,0,1.61-1h1.27a15.41,15.41,0,0,0,1.65,1Z">
+              </path>
+            </g>
+          </g>
+        </svg>
+      </div>
+
+
+
+      <!-- shavron  -->
+
+    </div>
+  </div>
+
+
+
+
+  <!-- section-3 start from here -->
+
+
+
+  <div class="container-fluid pt-5 " style="background-color: black;">
+    <div class="row pt-5">
+
+
+      <div class="col-6 three-heading pt-5" style="padding-left: 50px;">
+
+        <div class="row pt-5">
+
+          <div class="col-12 pt-5">
+
+            <p class="h5 text-uppercase" style="color: #fedf4b;">A lot on your plate</p>
+
+          </div>
+          <div class="col-12">
+            <p class="h1 text-uppercase"
+              style="color: #fedf4b; font-size: 6rem; font-weight: 500;line-height: 1;  font-family: 'Tusker Grotesk';">
+              The best street</p>
+          </div>
+          <div class="col-12">
+            <p class="h1 text-uppercase"
+              style="color: #fedf4b; font-size: 6rem; font-weight: 500; font-family: 'Tusker Grotesk';">food in
+              Scotland
+            </p>
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="col-6 two-para pt-3">
+
+        <div class="row">
+
+          <div class="col-12 img-burger-boy"><img src="images/burger-boy.webp" class="img-fluid" alt=""
+              style="border: 5px solid #fedf4b;"></div>
+
+          <div class="col-12 inside-burger-boy"><img src="images/inside-burger-boy.jpeg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-12 spinner-img "><img id="spinner" src="images/spinner.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+  <!-- section 3 end from here -->
+
+
+
+
+
+  <!-- section 4 end form here -->
+
+
+
+
+  <div class="container-fluid section-4 pt-5" style="background-color: black;">
+
+
+    <div class="row pt-5">
+
+      <div class="col-12 pt-5">
+
+        <div class="row">
+          <div class="col-8 text-end">
+
+
+            <p class="low h1 text-uppercase" style="font-size: 5.5rem; font-family:'Tusker Grotesk'; color: #fedf4b;">
+              What's Cookin</p>
+            <p class="low h1 text-uppercase" style="font-size: 5.5rem; font-family:'Tusker Grotesk'; color: #fedf4b;">
+              good lookin?</p>
+
+          </div>
+          <div class="low col-4">
+            <img src="images/kfc.avif" class="img-fluid" alt="">
+          </div>
+        </div>
+
+
+      </div>
+      <div class=" offset-3 col-6 text-center pt-5">
+        <p class="low text-center " style="font-weight: bold; color: #fedf4b;">You can choose from a variety of
+          homegrown
+          independent street food traders, whether its juicy Smashed
+          Burgers, stacked corn nachos or traditional Thai we bring you a social dining experience that gives you
+          a chance to taste many styles of celebrated cuisine.</p>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- section-4 end here -->
+
+
+
+
+  <!-- section-5 starts from here -->
+
+
+  <div class="container-fluid  pt-5 " style="background-color: black;">
+
+
+    <div class="row ">
+
+      <div class="col-12 d-flex  ">
+
+
+
+        <div class="container-fluid two-img text-center " id="first-image">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/pasta-logo.webp" class=" img-fluid"
+            alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/pasta-bg.webp" class="img-fluid"
+            alt="">
+        </div>
+
+        <div class="container-fluid two-img text-center " id="sec-image">
+          <img id="image-pasta" style="height: 150px; width: 150px; " src="images/mcfly.webp" class=" img-fluid" alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/mcfly-back.webp" class="img-fluid"
+            alt="">
+        </div>
+
+        <div class="container-fluid two-img text-center " id="third-image">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/pizza.webp" class=" img-fluid" alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/pizza-bg.webp" class="img-fluid"
+            alt="">
+        </div>
+
+        <div class="container-fluid two-img text-center" id="four-image">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/bangkok.webp" class=" img-fluid"
+            alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/bangkok-bg.webp" class="img-fluid"
+            alt="">
+        </div>
+
+
+
+
+      </div>
+
+      <div class="col-12 d-flex  ">
+
+        <div class="container-fluid two-img text-center  " id="f-img">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/smashed.webp" class=" img-fluid"
+            alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/smashed-bg.webp" class="img-fluid"
+            alt="">
+        </div>
+
+        <div class="container-fluid two-img text-center " id="s-img">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/far-out.webp" class=" img-fluid"
+            alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/far-out-bg.webp" class="img-fluid"
+            alt="">
+        </div>
+
+        <div class="container-fluid two-img text-center  " id="t-img">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/whippy-co.webp" class=" img-fluid"
+            alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/whippy-bg.jpg" class="img-fluid"
+            alt="">
+        </div>
+
+        <div class="container-fluid two-img text-center ">
+          <img id="image-pasta" style="height: 150px; width: 150px;" src="images/cooks.webp" class=" img-fluid" alt="">
+          <img id="image-pasta-bg" style="height: 150px; width: 150px;" src="images/cooks-bg.webp" class="img-fluid"
+            alt="">
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+  <!-- section-5 end here  -->
+
+
+  <div class="container-fluid pt-5" style="background-color: black;">
+
+
+    <div class="row pt-5">
+
+
+      <div class="offset-2 col-9 text-center pt-5">
+        <p id="im-ready" class="h1 text-center justify-content-center text-uppercase"
+          style="font-weight: 600; font-family: 'Tusker Grotesk'; font-size: 5rem; color: black;">I'm ready to get
+          tickets!</p>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- section-6 start here -->
+
+  <div class="container-fluid pt-5" style="background-color: black;">
+
+
+    <div class="row pt-5">
+
+      <div class="col-12 pt-5">
+
+
+        <div class="row three-images text-center">
+
+          <div class="col-4 " style="font-weight: bold;">
+
+            <img src="images/pic1.webp" class="img-fluid" alt="">
+
+            <div class="hover-one">
+
+              
+              <div class="container-fluid yel  " style=" border: 1px solid #fedf4b;">
+                
+                <p class="text-start h5 pt-2">Friday 17th January 2025</p>
+                <p class="text-start">. General Admission</p>
+                <p class="text-start" style="line-height: 0.24;">. 17:00 - 23:00</p>
+                <img id="hover-one" src="images/yellowchevron.png" alt="">
+                
+                <a href="friday.html"><button style="padding-left: 270px; color: #fedf4b; font-weight: bold;" class="btn ">BUY NOW</button></a> 
+                
+              </div>
+              
+            </div>
+
+          </div>
+
+
+          <div class="col-4" style="font-weight: bold;">
+
+            <img src="images/pic2.webp" class="img-fluid" alt="">
+
+            <div class="hover-one">
+
+              
+              <div class="container-fluid  " style=" border: 1px solid #fedf4b;">
+
+  <p class="text-start h5 pt-2">Saturday 18th January 2025</p>
+  <p class="text-start">. General Admission</p>
+  <p class="text-start" style="line-height: 0.24;">. 17:00 - 23:00</p>
+  <img id="hover-one" src="images/yellowchevron.png" alt="">
+  
+  <a href="saturday.html"><button style="padding-left: 270px; color: #fedf4b; font-weight: bold;" class="btn ">BUY NOW</button></a> 
+</div>
+
+</div>
+
+
+          </div>
+          <div class="col-4" style="font-weight: bold;">
+
+            <img src="images/pic3.webp" class="img-fluid" alt="">
+
+
+            <div class="hover-one">
+
+              
+              <div class="container-fluid" style=" border: 1px solid #fedf4b;">
+
+  <p class="text-start h5 pt-2">Sunday 19th January 2025</p>
+  <p class="text-start">. General Admission</p>
+  <p class="text-start" style="line-height: 0.24;">. 17:00 - 23:00</p>
+
+  <img id="hover-one" src="images/yellowchevron.png" alt="">
+
+  <a href="sunday.html"><button style="padding-left: 270px; color: #fedf4b; font-weight: bold; " class="btn ">BUY NOW</button></a>
+</div>
+
+
+</div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+      <div class="col-12 text-center pt-5">
+
+       <a href="ticket.html">
+
+         <button id="all-ticket" class="btn" style=" border: 3px solid #fedf4b;  border-radius: 20px; ">All
+            Tickets</button>
+       </a> 
+
+      </div>
+
+
+
+    </div>
+
+    <div class="container-fluid pt-5" style="border-bottom: 1px solid #fedf4b;">
+
+    </div>
+
+
+
+
+
+    <div class="container-fluid pt-5" style="background-color: black;">
+
+
+      <div class="row pt-5">
+
+
+        <div class="col-12 offset-1 event" style=" color: black;">
+          <p>Events Events Events</p>
+        </div>
+        <div class="col-12 event" style="margin-top: -16px; color: black;">
+          <p>Scroll Along →</p>
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+    <!-- slider start here  -->
+
+
+    <!-- Carousel -->
+  
+<div class="container" style="padding-top: 50px; background-color: black;">
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/ladies-1.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <a href="friday.html">
+      <button id="btn-1" style="text-decoration: none; z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+      <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+    </a>
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/secondladyimg.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Saturday 18th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <a href="saturday.html">
+      <button id="btn-1"  style="text-decoration: none; z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+      <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+
+    </a>
+
+  </div>
+
+</div>  
+
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/kids-animal.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Sunday 19th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <a href="sunday.html">
+
+      <button  style="z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+      <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+    </a>
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/france-vs.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <button   style="z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+    <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/scotland-vs.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <button id="btn-1" style="text-decoration: none; z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+      <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/ladies-1.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <button id="btn-1" style="text-decoration: none; z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+    <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/wales-vs.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <button id="btn-1" style="text-decoration: none; z-index: 2; background-color: black;  color:#fedf4b; border: 1px solid #fedf4b; font-weight: bold; padding: 5px; position: relative; left: 5px;">BUY TICKETS</button>
+      <div style="z-index: 1; height: 35px; width: 110px; background-color: #fedf4b; position: relative; top: -30px;" ></div>
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/ladies-1.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <button style="background-color: #fedf4b; color:black; font-weight: bold; padding: 5px;">BUY TICKETS</button>
+    
+  </div>
+
+</div>  
+
+<div class="div1" style="display: flex;">
+
+  <div><img src="images/scotland-vs.webp" alt=""></div>
+  
+  <div class="para" style="width: 340px;" >
+    <p style="color: #fedf4b; font-weight: bold;">Friday 17th January</p>
+    <h2 style="color: #fedf4b; font-weight: bold;">CAPTAINS QUIZ</h2>
+    <p style="color: #fedf4b;font-weight: bold;" >The Captains Quiz returns for 2025! Our Quiz Master Mark will be back under the Docky roof once more!</p>
+    <button style="background-color: #fedf4b; color:black; font-weight: bold; padding: 5px;">BUY TICKETS</button>
+  </div>
+
+</div>  
+
+
+  
+  </div>
+  
+
+
+
+    <!-- slider-end here -->
+
+    <!-- section -7 start from here -->
+
+
+    <div class="container-fluid pt-5" style="background-color: black;">
+
+
+      <div class="row pt-5 text-center">
+
+
+        <div class="col-12 pt-5 text-uppercase">
+          <p style=" color: #fedf4b; font-weight: bold; font-family: 'Tusker Grotesk'; font-size: 6.5rem;">Ok but how
+            do</p>
+        </div>
+        <div class="col-12 text-uppercase">
+          <p style=" color: #fedf4b; font-weight: bold; font-family: 'Tusker Grotesk'; font-size: 6.5rem;">I get
+            there?</p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+    <!-- section-8 start from here -->
+
+
+    <div class="container-fluid section-8 pt-5" style="background-color: black;">
+
+
+      <div class="row pt-5 text-center">
+
+        <div class="col-4 four-img pt-5">
+
+          <p class="h5 text-uppercase">Where to go</p>
+          <p class="h1 text-uppercase">Location</p>
+          <p class="h5 text-uppercase">95-107 HAUGH ROAD</p>
+          <p class="h5 text-uppercase">GLASGOW G3 8TX</p>
+
+
+          <p class="text-uppercase">Map it!</p>
+
+        </div>
+        <div class="col-4 four-img pt-5">
+
+
+          <p class="h5 text-uppercase">Where to go</p>
+          <p class="h1 text-uppercase">Location</p>
+          <p class="h5 text-uppercase">95-107 HAUGH ROAD</p>
+          <p class="h5 text-uppercase">GLASGOW G3 8TX</p>
+
+
+          <p class="text-uppercase">Map it!</p>
+
+
+        </div>
+        <div class="col-4 four-img pt-5 ">
+
+
+          <p class="h5 text-uppercase">Where to go</p>
+          <p class="h1 text-uppercase">Location</p>
+          <p class="h5 text-uppercase">95-107 HAUGH ROAD</p>
+          <p class="h5 text-uppercase">GLASGOW G3 8TX</p>
+
+
+          <p class="text-uppercase">Map it!</p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+    <!-- container -9 start from here -->
+
+
+    <div class="container pt-5 container-9">
+
+
+  
+    <a href="https://maps.app.goo.gl/Z5wBUKnnEFtXNZNF6"><img src="images/map.webp" class="img-fluid" alt=""></a>
+
+  
+
+     
+
+
+
+      
+
+    </div>
+
+
+
+
+    <!-- container-10 start from here -->
+
+
+
+
+
+    <div class="container-fluid container-10 pt-5" style="background-color: black;">
+
+
+
+      <div class="row pt-5"></div>
+      <div class="col-12 text-center">
+
+
+        <a href="index.html"><img src="images/arrow-function.PNG" class="img-fluid" alt=""></a>
+
+
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+    <!-- container 11 start from here -->
+
+
+    <div class="container-fluid container-11 pt-5">
+
+
+      <div class="row text-center pt-5">
+
+        <div class="col-4 parag">
+          <a href="about.html" style="text-decoration: none; color: #fedf4b;">
+            <p class="text-uppercase">about</p>
+            
+          </a>
+        </div>
+        <div class="col-4 parag">
+          <p class="text-uppercase">events</p>
+        </div>
+        <div class="col-4 parag">
+          <a style="color: #fedf4b; text-decoration: none;" href="contact.html"><p class="text-uppercase">contact</p></a>
+        </div>
+
+
+
+      </div>
+    </div>
+
+
+
+
+    <!-- footer starts from here -->
+
+
+    <div class="container-fluid footer-f pt-5">
+
+      <div class="row pt-5">
+
+        <div class="col-5 four-parag">
+
+
+          <div class="col-12 text-uppercase ">
+            <p style="color: #fedf4b; font-size: 3rem; font-family: 'Tusker Grotesk';">Join the</p>
+          </div>
+          <div class="col-12 text-uppercase">
+            <p style="color: #fedf4b; font-size: 3rem; font-family: 'Tusker Grotesk';">Dockyard</p>
+          </div>
+          <div class="col-12 text-uppercase">
+            <p style="color: #fedf4b; font-size: 3rem; font-family: 'Tusker Grotesk';">Movement</p>
+          </div>
+
+          <div class="col-12 h5">
+            <div class="email-container">
+              
+              <input type="email" id="email" placeholder="E-mail" />
+              <button>Submit</button>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+
+        <div class="col-3 eight-para ">
+
+
+
+          <p style="font-size: 1.3rem; font-weight: bold;">Treasure Map</p>
+          <p class="pt-3">Home</p>
+          <p>Events</p>
+          <p>Shop</p>
+          <p>About</p>
+          <p>Private Hire</p>
+          <p>FAQ</p>
+          <p>Cancellation/Refusal Policy</p>
+          <p>Gift Vouchers</p>
+
+        </div>
+        <div class="col-2">
+
+          <p style="font-size: 1.2rem; color: #fedf4b; font-weight: bold;">Legal Mumbo Jumbo</p>
+          <p class="pt-3" style="color: #fedf4b; font-weight: bold;">Privacy and Cookie Policy</p>
+          <p style="color: #fedf4b; font-weight: bold;">Terms & Conditions</p>
+          <p style="color: #fedf4b; font-weight: bold;">Giftcard Policy</p>
+
+
+        </div>
+
+        <div class="col-2">
+
+          <p style="font-size: 1.2rem; color: #fedf4b; font-weight: bold;">Be Our Friend</p>
+          <p class="pt-3" style="color: #fedf4b; font-weight: bold;">Instagram</p>
+          <p style="color: #fedf4b; font-weight: bold;">Facebook</p>
+          <p style="color: #fedf4b; font-weight: bold;">Tripadvisor</p>
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+    </div>
+
+
+    <div class="container-fluid " style="background-color: black;">
+
+
+      <div class="row  three-parag">
+
+        <div class="col-12 text-center text-uppercase">
+          <p style=" color: #fedf4b; font-size: 13.5rem; font-family: 'Tusker Grotesk';">Dockyard Social</p>
+        </div>
+        <div class="col-12 text-center" style=" color: #fedf4b; font-weight: bold;">
+          <a style="text-decoration: none;" href="https://toogallus.com/">
+            <p style="color: #fedf4b; font-weight: bold;"> Copyright Dockyard Social 2022 -
+              cheffed up by Too Gallus </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- pop up  -->
+
+
+    <dialog open id="pop-up">
+
+      <div class="container-fluid p-2">
+
+        <div class="row">
+          <div class="col-12">
+
+            <div class="row">
+
+              <div class="col-5 " style="padding-left: 40px;">
+                <p style="color: #fedf4b; font-weight: bold; font-size: 1rem;" >By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site
+                  navigation, analyze site usage, and assist in our marketing efforts. View our <a style="color: #fedf4b;" href="">Privacy Policy</a>  for
+                  more information.</p>
+              </div>
+              <div class="col-1 text-center align-content-center " > <a style="color: #fedf4b; font-weight: bold;" href="">Preferences</a></div>
+              <div class="col-1 text-center align-content-center"><button class="btn px-5" style="font-weight: bold; color: #fedf4b; border: 1px solid #fedf4b; border-radius: 20px;">Deny</button></div>
+              <div class="col-3 text-center align-content-center"> <button class="btn px-5"  style="color: black; background-color: #fedf4b; border: 1px solid #fedf4b; border-radius: 20px;">Accept</button>
+              </div>
+              <div class="col-1 align-content-center  " id="closey" ><p onclick="closecrose()" class="" id="iconss"><i class="bi bi-x-circle"></i></p></div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </dialog>
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <!-- pop-up  -->
+
+
+
+  <!-- pop-up  -->
+
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

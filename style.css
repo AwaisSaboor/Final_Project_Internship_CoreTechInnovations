@@ -1,0 +1,920 @@
+@font-face {
+    font-family: 'Tusker Grotesk';
+    src: url('fonts/TuskerGrotesk-3500Medium.ttf') format('truetype');
+    font-weight: 500;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    overflow-x: hidden;
+    
+}
+
+.navbar-section1{
+    background-image: url(images/bacjground.webp);
+    /* object-fit: cover; */
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.spinner-img{
+    position: absolute;
+    
+   
+}
+
+.spinner-img img{
+
+    height: 200px;
+    position: relative;
+    
+    left: 400px;
+    
+
+}
+
+
+#navbarNav{
+    padding-left: 220px;
+}
+.gift-vouch{
+    padding-left: 20px;
+}
+.chart{
+    padding-left: 20px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    color: yellow;
+    
+    
+}
+.navbar-section1{
+    background-image: url(images/bacjground.webp);
+    object-fit: cover;
+
+    
+}
+.btn-book{
+    color: #fedf4b;
+    border: 2px solid #fedf4b;
+}
+.the-west{
+    color: #fedf4b;
+    font-weight: bold;
+    
+}
+.cookie-img img{
+    height: 50px;
+    width: 50px;
+    position:fixed;
+    bottom:70px ;
+}
+.great-people{
+    color:#fedf4b;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 13vw;
+    font-weight: 400;
+    line-height: 1.05;
+    color: transparent; 
+    -webkit-text-stroke: 3px rgb(254, 223, 75); 
+    /* text-stroke: 2px yellow;  */
+    
+}
+
+
+
+input[type="number"] {
+    width: 355px;
+    border: 2px solid #fedf4b
+    ;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+#navbar a{
+   text-decoration: none;
+    color:#fedf4b;
+}
+
+
+ .good-food {
+    color:#fedf4b;
+    margin-bottom: 0;
+    font-family: 'Tusker Grotesk', sans-serif;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 10rem;
+    font-weight: 595;
+    line-height: 1.05;
+  } 
+#heading2{
+    color:#fedf4b;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 13vw;
+    font-weight: 400;
+    line-height: 1.05;
+    color: transparent; 
+    -webkit-text-stroke: 3px rgb(254, 223, 75); 
+    /* text-stroke: 2px yellow;  */
+    
+}
+.logo-name{
+    
+    font-size: 3rem;
+    font-family: 'Tusker Grotesk', sans-serif;
+}
+#social-dining{
+    
+    line-height: .05;
+    color: transparent; 
+    -webkit-text-stroke: 3px rgb(254, 223, 75); 
+    
+}
+#eat-drink{
+    font-size: 5rem;
+    line-height: 1.25;
+    color: #fedf4b;
+}
+
+#dockyard{
+    
+    color: #fedf4b;
+}
+#friends{
+    color: transparent; 
+    -webkit-text-stroke: 3px rgb(254, 223, 75); 
+      font-size: 5rem;
+      line-height: .05;
+      
+    }
+    #started-para{
+        line-height: 0.25;
+        color: #fedf4b;
+        font-weight: bold;
+        
+        
+    }
+    #glassgow-para{
+        color: #fedf4b;
+      line-height: 0.24;
+      font-weight: bold;
+      
+    }
+    .navbar-nav .nav-item {
+        opacity: 0; 
+        transform: translateY(200px); 
+      }
+
+     
+
+.img-burger-boy img{
+margin-top: 50px;
+height: 550px;
+width: 550px;
+object-fit: cover;
+}
+
+.inside-burger-boy{
+    position: absolute;
+   
+}
+
+.inside-burger-boy img{
+    height: 200px;
+    width: 240px;
+    object-fit: cover;
+    position: relative;
+    top: 300px;
+    right: 100px;
+    border: 3px solid black;
+
+}
+
+.four-imges img{
+    height: 150px;
+    width: 150px;
+}
+.img{
+    margin-left: 120px;
+   
+}
+#im-ready{
+    background-color: #fedf4b;
+    color:white;
+    width: 800px;
+    padding-bottom: 6px;
+word-spacing: 12px;
+   
+}  
+.image{
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+}
+.three-images img{
+    height: 350px;
+    width: 388px;
+    object-fit: cover;
+    border: 2px solid #fedf4b;
+
+}
+.three-images p{
+    color: #fedf4b;
+    /* padding-left: 40px; */
+}
+.event p{
+    display:inline-block;
+    background-color: #fedf4b;
+    font-size: 5rem;
+    font-family:'Tusker Grotesk' ;
+    
+    
+}
+
+#img-lady{
+    height: 350px ;
+    width: 350px;
+    object-fit: cover;
+    
+}
+
+.four-img p{
+    color: #fedf4b;
+    font-weight: bold;
+}
+.container-9 img{
+    border: 4px solid #fedf4b;
+    
+}
+.parag{
+    color: #fedf4b;
+    border: 1px solid #fedf4b;
+    font-size: 5rem;
+    font-family:'Tusker Grotesk' ;
+    
+}
+.eight-para p{
+color: #fedf4b;
+line-height: 1.00;
+font-weight: bold;
+}
+.eight-para p:hover{
+color: yellow;
+border-bottom: 1px solid yellow;
+display: inline-block;
+transition: all 0.1s ease;
+}
+.four-parag p:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+    display: inline-block;
+    transition: all 0.1s ease;
+}
+
+.two-img{
+position: relative;
+}
+.three-parag p:hover{
+    color: yellow;
+border-bottom: 1px solid yellow;
+display: inline-block;
+transition: all 0.1s ease;
+
+}
+#image-pasta-bg{
+    border: 6px solid #fedf4b;
+    border-radius: 10px;
+    transform: rotate(-380deg);
+    position: absolute; 
+    left: 80px;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+#image-pasta-bg:hover{
+    opacity: 1;
+}
+#first-image{
+    border-bottom:2px solid #fedf4b ;
+    border-right: 2px solid #fedf4b;
+}
+#sec-image{
+    border-bottom: 2px solid #fedf4b;
+    border-right: 2px solid #fedf4b;
+
+    
+    
+}
+#third-image{
+    border-bottom: 2px solid #fedf4b;
+    border-right: 2px solid #fedf4b;
+
+}
+#four-image{
+    border-bottom: 2px solid #fedf4b;
+}
+#f-img{
+    border-right: 2px solid #fedf4b;
+}
+#s-img{
+    border-right: 2px solid #fedf4b;
+
+}
+#t-img{
+    border-right: 2px solid #fedf4b;
+
+}
+
+.hire-hover:hover{
+    border-bottom: 1px solid #fedf4b;
+
+}
+.section-2{
+    position: relative;
+}
+
+
+ 
+/* shevrons starts fro here ========================================================================================= */
+
+
+.section-2 {
+    position: relative;
+    height: 100vh; 
+    overflow: hidden;
+  }
+  
+
+
+
+  .shapes > div {
+    position: absolute;
+    transform: translateY(0); 
+  }
+  
+  
+  #chevron1 {
+    left: 0%; 
+    animation: moveUpLeft 8s infinite linear;
+  }
+  
+
+  .chevron2 {
+    left: 50%; 
+    transform: translateX(-50%);
+    animation: moveUpMiddle 8s infinite linear;
+    animation-delay: 2s; 
+  }
+  
+
+  .chevron3 {
+    right: 15%; 
+    animation: moveUpRight 8s infinite linear;
+    animation-delay: 6s;
+  }
+
+
+  
+  /* -----------scroller bar in html and css ---------------------------------------------------------------- */
+  
+  .container div img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border: 8px solid #fedf4b;
+  }
+  .container{
+    display: flex;
+    overflow-x: auto;
+
+    padding-bottom: 50px;
+    
+  }
+  
+  .container .para{
+    
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .container::-webkit-scrollbar-thumb{
+    background-color: #fedf4b;
+    /* height: 150px; */
+    width:1px;
+    font-size: 2px;
+   
+  }
+  .container::-webkit-scrollbar{
+    width: 20px;
+    
+  }
+  .div1::-webkit-scrollbar-thumb{
+    width: 2px;
+  }
+
+ 
+  
+  
+  /* ---- -------------------------------------------------------------------------------------------------- */
+ 
+  @keyframes moveUpLeft {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: -310px; 
+    }
+  }
+  
+  
+  @keyframes moveUpMiddle {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: -310px;
+    }
+  }
+  
+
+  @keyframes moveUpRight {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: -310px;
+    }
+  }
+  
+
+
+
+
+
+/* shevron ends from here ============================================================================== */
+
+
+
+
+
+
+
+
+
+
+.reveal {
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slideIn 0.9s ease forwards;
+  }
+  
+ 
+  .reveal:nth-child(1) {
+    animation-delay: 0.3s; 
+  }
+  
+  .reveal:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .reveal:nth-child(3) {
+    animation-delay: 0.7s; 
+  }
+  .reveal:nth-child(3) {
+    animation-delay: 0.9s; 
+  }
+  
+ 
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  
+ 
+
+
+
+
+
+
+/* slow property in index html ==================================================================== */
+
+
+
+
+  .slow{
+    opacity: 0;
+    transform: translateY(100px);
+    animation: slideIn 0.9s ease forwards;
+  }
+  
+  
+  .slow:nth-child(1) {
+    animation-delay: 0.9s; 
+  }
+  
+  .slow:nth-child(2) {
+    animation-delay: 0.9s; 
+  }
+  
+  .slow:nth-child(3) {
+    animation-delay: 0.9s; 
+  }
+  .slow:nth-child(3) {
+    animation-delay: 0.9s; 
+  }
+  
+
+
+
+
+  
+
+
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(100px); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); 
+    }
+  }
+  
+
+/* -----------------------------------------webkit scroller track and thumb ----------------------------- */
+
+  
+
+  ::-webkit-scrollbar{
+    width: 5px;
+    
+  }
+
+  ::-webkit-scrollbar-track{
+    background-color: black;
+    border-left:1px solid #fedf4b;
+    border-bottom:2px solid #fedf4b;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: #fedf4b;
+    height: 150px;
+   
+  }
+/* -------------------------------------------------------------------------------------------------------------  */
+
+dialog{
+    width: 500px ;
+    height: 350px;
+    margin-left: 400px;
+    margin-top: 150px;
+    border-radius: 10px;
+
+}
+
+
+#icons i{
+    /* background-color: white; */
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: -8px;
+    /* margin-left: 300px; */
+}
+
+
+/* css for toggle ==================================================================================================== */
+
+.toggle-switch {
+    position: relative;
+    width: 50px;
+    height: 25px;
+    background-color: #333;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .toggle-switch::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .toggle-switch.active {
+    background-color: #fedf4b;
+  }
+
+  .toggle-switch.active::before {
+    transform: translateX(30px);
+  }
+
+/* =============================================================================================================== */
+
+
+
+/* seven images section-2 about html */
+
+.seven-images{
+    position: relative;
+    z-index: 2;
+}
+
+
+.img-3{
+    position: absolute;
+    top: 145%;
+    left: 38%;
+    transform: rotate(10deg);
+    z-index: 4;
+    
+}
+.img-6{
+    position: absolute;
+    top: 98%;
+    left: 5%;
+    transform: rotate(-15deg);
+    z-index: 3;
+}
+.img-4{
+    position: absolute;
+    top: 150%;
+    left: 5%;
+    transform: rotate(-20deg);
+    z-index: 1;
+}
+.img-5{
+    position:absolute;
+    top: 90%;
+    left: 40%;
+    transform: rotate(20deg);
+    
+}
+.img-2{
+    position: absolute;
+    top: 85%;
+    left: 24%;
+    transform: rotate(12deg);
+
+
+}
+
+
+
+
+/* five-images  */
+
+
+
+.img-img{
+  position: relative;   
+}
+
+.img-img0{
+  z-index: 2;
+}
+
+.img-img1{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    transform: rotate(15deg);
+    z-index: 4;
+
+   
+}
+.img-img2{
+    position: absolute;
+    top: -22%;
+    right: -40%;
+    transform: rotate(10deg);
+    
+  
+   
+    
+}
+.img-img3{
+    position: absolute;
+    top: -40%;
+    left: 0;
+    transform: rotate(-20deg);
+  
+   
+
+}
+.img-img4{
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+    transform: rotate(-20deg);
+    z-index: 6;
+}
+.img-img5{
+    position: absolute;
+    bottom: -35%;
+    right: -70%;
+    transform: rotate(20deg);
+
+}
+
+/* horzontally scroller  */
+
+
+
+
+
+
+/* pop - up  */
+
+
+
+#pop-up{
+    position: fixed;
+    top: 55%;
+    margin-left: 0px;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    border: none;
+    
+   
+}
+
+
+#iconss{
+    font-size: 2rem;
+    color: white;
+    margin-left: -70px;
+    padding-top: 10px;
+}
+
+
+
+
+
+/* -----------------------email place holder --------------------------- */
+
+
+
+.email-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #fedf4b;
+  display: inline-block;
+}
+label {
+  color: #fedf4b;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+input[type="email"] {
+  background-color: black;
+  border: none;
+  
+  color: #fedf4b;
+  font-size: 20px;
+  font-weight: bold;
+  
+  padding: 5px;
+  outline: none;
+  width: 200px;
+}
+input[type="email"]::placeholder {
+  color: #fedf4b;
+  /* opacity: 0.8; */
+}
+button {
+  background-color: black;
+  color: #fedf4b;
+  border: none;
+  font-size: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+button:hover {
+  text-decoration: underline;
+}
+
+
+/* ============================================================================================================= */
+
+#book-now{
+  color: #fedf4b;
+  text-decoration: none;
+}
+*
+#book-now:hover{
+  background-color: #fedf4b;
+  color: black;
+
+}
+
+
+.flex-divs{
+  display: flex;
+  
+}
+
+
+#all-ticket:hover{
+  background-color: #fedf4b;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  
+
+}
+#all-ticket{
+  color: #fedf4b;
+}
+
+
+#btn-1:hover{
+  transform: translate(-5px,5px);
+}
+
+
+.hover-one{
+  position: relative;
+  overflow: hidden;
+}
+#hover-one{
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: -50px;
+  margin-top: -200px;
+  opacity: 0;
+  border: none;
+  
+
+}
+
+@keyframes slideout {
+  0% {
+    opacity: 0;
+    transform: translateY(170px); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-190px); 
+  }
+}
+
+
+
+#hover-one:hover{
+  opacity: 1;
+  animation: slideout 0.8s ease forwards;
+  color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
